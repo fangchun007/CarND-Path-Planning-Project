@@ -18,11 +18,11 @@ In this project, our goal is to safely navigate around a virtual highway with ot
 ### Output (data needs to be generated for [simulator](https://github.com/udacity/self-driving-car-sim/releases))
 *  a path made up of (x,y) points that the car will visit sequentially every .02 seconds
 
-### Flowchart
+### How: Flowchart
 ![alt text][image2]
 
 
-
+### How: With Detail
 
 
 ---
