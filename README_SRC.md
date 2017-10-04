@@ -1,17 +1,17 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
 
-## Goals
-In this project, the goal is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit. 
+### Goal
+In this project, our goal is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit. 
 
-### Input (data obtained from simulator)
-*  Main car's localization Data (No Noise)
+### Input (data obtained from [simulator](https://github.com/udacity/self-driving-car-sim/releases))
+*  Main car's localization data (No Noise)
 *  Sensor fusion data
-*  Previous path data given to the Planner
+*  Previous path data given to the planner
 *  Previous path's end s and d values
-*  The map of the highway
+*  Map of the highway
 
-### Output (data we need to generate for simulator)
+### Output (data we need to generate for [simulator](https://github.com/udacity/self-driving-car-sim/releases))
 *  a path made up of (x,y) points that the car will visit sequentially every .02 seconds
 
 
