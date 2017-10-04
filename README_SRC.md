@@ -3,6 +3,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 [//]: # (Image References)
 [image1]: ./src/pathPlanning_flowchart.pdf
+[image1]: ./pathPlanning_flowchart.jpg
 
 ### Goal
 In this project, our goal is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit. 
@@ -18,7 +19,7 @@ In this project, our goal is to safely navigate around a virtual highway with ot
 *  a path made up of (x,y) points that the car will visit sequentially every .02 seconds
 
 ### Flowchart
-![alt text][image1]
+![alt text][image2]
 
 
 
