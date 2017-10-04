@@ -11,8 +11,10 @@ In this project, our goal is to safely navigate around a virtual highway with ot
 *  Previous path's end s and d values
 *  Map of the highway
 
-### Output (data we need to generate for [simulator](https://github.com/udacity/self-driving-car-sim/releases))
+### Output (data needs to be generated for [simulator](https://github.com/udacity/self-driving-car-sim/releases))
 *  a path made up of (x,y) points that the car will visit sequentially every .02 seconds
+
+### Flowchart
 
 
 
