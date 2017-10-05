@@ -18,11 +18,21 @@ In this project, our goal is to safely navigate around a virtual highway with ot
 ### Output (data needs to be generated for [simulator](https://github.com/udacity/self-driving-car-sim/releases))
 *  a path made up of (x,y) points that the car will visit sequentially every .02 seconds
 
-### How: Flowchart
+### Flowchart
 ![alt text][image2]
 
+### Implementation
+Let's start with **trajectory generation**. This module aims to generate the next path points, which will be used by the car's perfect controller and makes it visit every (x,y) point it recieves in the list every .02 seconds. The data we can use includes sensor fusion data which describes the current traffic conditions, main car's localization data, previous path data, and map of highway. 
 
-### How: With Detail
+First, we are going to use some of previous path data. It has at least two merits. One, save computation time. Two, improve driving stability. In this version, I used all of the left previous path data. Namely, the end of previous path will be considered as the reference when we add new way points.
+
+Second, generate a sample path by using the updated lane information. A cubic polynomial curve ([spline.h](http://kluge.in-chemnitz.de/opensource/spline/)) is used. 
+'''
+// for i = 1, 2, 3
+double new_car_s = ref_s + (i + 1) * 30;
+double new_car_d = 2 + 4 * lane.current_lane;
+'''
+
 
 
 ---
