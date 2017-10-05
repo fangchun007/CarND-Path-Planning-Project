@@ -40,7 +40,7 @@ double N = target_dist / (0.02 * this->ref_vel / 2.24);
 double step_length = target_x / N;
 for (int i = 1; i <= 50 - previous_path_x.size(); i++)
 ```
-Please visit [trajectory.h]() for more detail.
+Please visit [trajectory.h](https://github.com/fangchun007/CarND-Path-Planning-Project/blob/master/src/trajectory.h) for more detail.
 
 ### Path Planning
 Suppose the traffic status for the future several senconds are clear. We now need to decide which lane we should drive and what's the idea velocity. 
@@ -49,7 +49,7 @@ In this version of implementation, we used a simple path planning rule. But it s
 
 For relations between this method and the one we learned from lectures, this method used a step function as the cost function. 
 
-Please visit [behavior.h]() for the code.
+Please visit [behavior.h](https://github.com/fangchun007/CarND-Path-Planning-Project/blob/master/src/behavior.h) for the code.
 
 ### Prediction 
 In this module, we try to figure out the traffic situation in the future several seconds. 
@@ -68,4 +68,4 @@ In the implementation, the idea of recursion is used. Namely, we assume by this 
         }
 ```
 
-Please visit [lane.h]() for more detail.
+Please visit [lane.h](https://github.com/fangchun007/CarND-Path-Planning-Project/blob/master/src/lane.h) for more detail.
