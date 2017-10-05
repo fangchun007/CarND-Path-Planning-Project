@@ -2,7 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 [//]: # (Image References)
-[image1]: ./src/pathPlanningFlowchart.pdf
+[image1]: ./src/pathPlanning_flowchart.pdf
 [image2]: ./pathPlanningFlowchart.jpg
 
 ## Goal
